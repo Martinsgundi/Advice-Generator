@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Check out the solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Visit the live site](https://your-live-site-url.com)
+- Solution URL: [Check out the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-vanilla-js-api-EminRx6bF6)
+- Live Site URL: [Visit the live site](https://martinsgundi.github.io/Advice-Generator/)
 
 ## My process
 
@@ -66,8 +66,8 @@ I am definitely looking forward to working with APIs and similar technologies in
 
 ### Useful resources
 
-- [Net ninja: async Js](https://www.example.com) - This helped me understand asynchronous JavaScript and how it works under the hood. It provided me with a solid foundation, and I recommend this video to anyone who is new to asynchronous JavaScript.
-- [Net ninja: JSON-server](https://www.example.com) - This is also an amazing video. This tutorial walks you through all the processes of consuming an API and using the data obtained to manipulate the DOM. It was indeed a plus for me.
+- [Net ninja: async Js](https://www.youtube.com/watch?v=ZcQyJ-gxke0) - This helped me understand asynchronous JavaScript and how it works under the hood. It provided me with a solid foundation, and I recommend this tutorial to anyone who is new to asynchronous JavaScript.
+- [Net ninja: JSON-server Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i2v2ZqJgydXIcRq_ZizIdD) - This is also an amazing tutorial. This walks you through all the processes of consuming an API and using the data obtained to manipulate the DOM. It was indeed a plus for me.
 
 
 ## Author
