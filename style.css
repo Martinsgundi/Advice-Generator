@@ -1,0 +1,132 @@
+:root {
+    /* Primary */
+    --light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    /* Neutral */
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+*::before,
+*:after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+    background-color: var(--Dark-Blue);
+    color: var(--light-Cyan);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding-inline: 1.5rem;
+}
+
+.advice-box {
+    background-color: var(--Dark-Grayish-Blue);
+    max-width: 35rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2rem 3rem 0 3rem;
+    border: 1px solid var(--Dark-Blue);
+    border-radius: 1rem;
+}
+
+.advice-header {
+    font-size: 1.1rem;
+    color: var(--Neon-Green);
+    letter-spacing: 3.2px;
+    line-height: 5;
+}
+
+.advice {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.d-divider {
+    display: none;
+}
+
+.dice {
+    background: var(--Neon-Green);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: -3rem;
+    transition: box-shadow 0.1s ease;
+}
+
+.dice img {
+    position: relative;
+    bottom: -0.3rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 7rem;
+    color: var(--light-Cyan);
+    font-size: 1.6rem;
+    padding-inline: 0.7rem;
+}
+ 
+.title {
+    font-size: 1.3rem;
+}
+ 
+.attribution a {
+    text-decoration: none; 
+    color: var(--Neon-Green);
+}
+ 
+.attribution a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    opacity: 0.8;
+}
+
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    body {
+        font-size: 2.4rem; 
+    }
+
+    .advice-box {
+        max-width: 47rem;
+    }
+
+    .m-divider {
+        display: none;
+    }
+
+    .d-divider {
+        display: initial;
+    }
+
+    .dice {
+        cursor: pointer;
+    }
+
+    .dice:hover {
+        box-shadow: 1px 1px 25px 2px var(--Neon-Green) ;
+    }
+}
